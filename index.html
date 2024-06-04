@@ -4,12 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>javascript</title>
-    <script>
-        console.log("Hello world!")
-     </script>
 
-</head> 
+    <script>
+        function produto(a, b){
+            return a * b;
+            
+        }
+
+        var somaum = produto(4,3);
+        //window.onload = alert(somaum)
+
+
+
+        function compararNumeros(a, b) {
+    if (a > b) {
+        console.log(a + " é maior que " + b);
+    } else if (a < b) {
+        console.log(a + " é menor que " + b);
+    } else {
+        console.log(a + " é igual a " + b);
+    }
+        }
+
+compararNumeros(11, 10);
+
+
+function calculadora(a, b, c) {
+    if (calculadora(a, b, soma)) {
+        return(a + b);
+    } else if (calculadora(a, b, subtracao)) {
+        return(a - b)
+    } else if(calculadora(a, b, divisao)) {
+        return(a / b)
+    }
+    else{
+        return(a * b)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
 <body>
+    <p id="numero"></p>
 
 
 </body>
